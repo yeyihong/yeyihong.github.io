@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        li {
+            display: inline-block;
+        }
+
+        ul:last-child {
+            float: right;
+        }
+
+        ul:first-child {
+            float: left;
+        }
+        
+
+        li{
+            margin-left: 7px;
+        }
+        
+        li a {
+            text-decoration: none;
+        }
+
+        #signin {
+        }
+
+        #apps {
+            width: 30px;
+            height: 30px;
+            /*            background-color: fuchsia;*/
+            display: inline-block;
+
+            background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+            background-position: -130px -37px;
+            vertical-align: middle;
+
+        }
+
+        #pictures {
+
+
+
+        }
+
+        #gmail {
+        }
+        
+        #mic{
+            background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+            display: inline-block;
+            width: 36px;
+            height: 30px;
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+        }
+        
+/*        main */
+        
+        #main {
+            text-align: center;
+            clear: both;
+            padding-top: 200px; 
+
+        }
+        
+        #main img{
+            width: 300px;
+        }
+        #main input{
+            width: 400px;
+            height: 34px;
+            vertical-align: bottom;
+            border:none;
+        }
+        
+        #input{
+            border-radius: 50px ;
+            width: 460px;
+/*            border: solid 1px grey;*/
+            padding:8px;
+            margin:auto;
+            margin-bottom: 40px;
+                        box-shadow: 0px 0px 10px gray;
+        }
+        .btn{
+            text-decoration: none;
+            background-color: #e2e2e2;
+            color:black;
+            padding: 10px 15px;
+            margin-right: 10px;
+
+            
+        }
+        
+        p{
+           margin-top: 50px; 
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+        </ul>
+        <ul>
+            <li><a href="https://mail.google.com/mail/?tab=rm" id="gmail">Gmail</a></li>
+            <li><a href="https://www.google.ca/imghp?hl=zh-CN&tab=ri" id="pictures">Pictures</a></li>
+            <li><a href="https://www.google.ca/intl/zh-CN/about/products?tab=rh" id="apps"></a></li>
+            <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" id="signin">Sign in</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+        <br>
+
+        <div id="input">
+            <input type="text">
+            <a href="" id="mic"></a>
+        </div>
+
+        <a href="" class="btn">Google Search</a>
+        <a href="" class="btn">I'm Feeling Lucky</a>
+        <p>Google offered in : <a href="https://www.google.com/setprefs?sig=0_Cyvh94S0iNj_r4VLhvDrEROJfH4%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwjgqt34pbDiAhViT98KHbaFAbEQ2ZgBCAg">Français</a></p>
+    </div>
+    <!--
+
+    <ul>
+        <li>love</li>
+        <li>good at</li>
+        <li>social value</li>
+        <li>money</li>
+    </ul>
+-->
+
+    <footer>
+        <div id="country">Canada</div>
+        <ul>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
